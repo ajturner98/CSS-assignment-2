@@ -37,21 +37,27 @@ nav ul li{
 }
 
 section{
-  max-width: 600px;
+  max-width: 50%;
   box-sizing: border-box;
 }
 
 img {
     max-width: 100%; /* DO NOT delete or change this line */
-    margin-top: 1rem;
+    max-height: 50%;
 }
 
 article{
   display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0rem;
+  padding: 1rem;
+  justify-content: flex-start;
+}
+
+section.photo{
+  margin: 2rem;
+  color: #000;
 }
 
 #cougar{
@@ -67,7 +73,6 @@ article{
 }
 
 section.text{
-  background-color: #FFF;
   color:#000000;
   box-sizing: border-box;
   padding: 1rem 2rem;
@@ -76,9 +81,6 @@ section.text{
   margin-bottom: 2rem;
 }
 
-h2{
-  text-align: center;
-}
 footer{
   background:#666;
   font-size: 1rem;
